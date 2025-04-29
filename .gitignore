@@ -1,0 +1,43 @@
+# Go binaries
+/bin/
+/obj/
+
+# Go workspace directory (if using Go Modules, this is not necessary)
+/vendor/
+
+# Dependency directories
+/vendor/
+
+# OS-specific files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# IDE/editor specific files
+.idea/
+.vscode/
+
+# Go-related files
+*.test
+*.out
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Coverage reports
+*.coverage
+*.cov
+*.out
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Editor backup files
+*~
+
+# JetBrains IDEs specific
+.idea/
