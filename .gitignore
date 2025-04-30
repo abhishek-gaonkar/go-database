@@ -2,15 +2,12 @@
 /bin/
 /obj/
 
-# Go workspace directory (if using Go Modules, this is not necessary)
-/vendor/
-
 # Dependency directories
-/vendor/
+/vendor/*
 
 # OS-specific files
-.DS_Store           # macOS
-Thumbs.db           # Windows
+.DS_Store
+Thumbs.db
 
 # IDE/editor specific files
 .idea/
@@ -34,10 +31,7 @@ Thumbs.db           # Windows
 *.log
 
 # Temporary files
-*.tmp
+*.tmp*
 
 # Editor backup files
 *~
-
-# JetBrains IDEs specific
-.idea/
